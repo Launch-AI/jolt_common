@@ -1,4 +1,5 @@
 pub mod errors;
+pub mod middlewares;
 
 #[cfg(test)]
 mod tests {
