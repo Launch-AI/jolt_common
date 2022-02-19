@@ -1,8 +1,8 @@
-use axum::{error_handling::HandleErrorLayer, http::StatusCode};
+use axum::http::StatusCode;
 use tower::{
     layer::util::{Identity, Stack},
     limit::ConcurrencyLimitLayer,
-    BoxError, Layer, ServiceBuilder,
+    BoxError, ServiceBuilder,
 };
 use tower_http::{
     classify::{ServerErrorsAsFailures, SharedClassifier},

@@ -19,3 +19,4 @@ thiserror = "1.0.30"
 axum = "0.4.5"
 tower = { version = "0.4", features = ["full"] }
 tower-http = { version = "0.2.2", features = ["fs", "trace", "set-header",'cors'] }
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls","postgres","chrono","uuid","json" ,"offline","macros"] }
