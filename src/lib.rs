@@ -1,6 +1,7 @@
 pub mod errors;
 pub mod middlewares;
 pub mod db;
+pub mod handlers;
 
 #[cfg(test)]
 mod tests {
